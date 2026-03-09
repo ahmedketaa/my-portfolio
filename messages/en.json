@@ -1,0 +1,50 @@
+{
+  "Hero": {
+    "greeting": "Hi, I'm Ahmed Mostafa",
+    "title": "Full Stack MERN Developer & Programming Instructor",
+    "description": "I build modern web applications using React, Next.js, Node.js and MongoDB, and I also teach full-stack development and computer science fundamentals.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me"
+  },
+
+  "About": {
+    "title": "About Me",
+    "description": "I'm a Full Stack Developer specialized in the MERN stack with a strong passion for building modern, scalable web applications. I also work as a programming instructor where I teach full-stack development and computer science topics to aspiring developers.",
+    "description2": "Alongside development, I have experience in digital marketing and SEO-driven web development, helping businesses build production-ready websites that improve online visibility and user engagement."
+  },
+
+  "Experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Web Developer & Digital Marketer",
+        "company": "Project-Based Work",
+        "description": "Developed complete production-ready websites from design to deployment while managing digital marketing strategies including SEO, content planning and performance optimization."
+      },
+      {
+        "role": "MEAN Stack Instructor",
+        "company": "National Telecommunication Institute (NTI)",
+        "description": "Teaching a 90-hour MEAN Stack program covering Angular, Node.js, Express.js and MongoDB while mentoring students in real-world full-stack projects."
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Cube Art LTD",
+        "description": "Developed responsive web interfaces using Next.js and Tailwind CSS and trained students in frontend best practices."
+      }
+    ]
+  },
+
+  "Skills": {
+    "title": "Technical Skills",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "database": "Database",
+    "cs": "Computer Science"
+  },
+
+  "Contact": {
+    "title": "Let's Work Together",
+    "description": "If you are looking for a developer to build modern web applications or a programming instructor to mentor your team or students, feel free to reach out.",
+    "cta": "Get In Touch"
+  }
+}
