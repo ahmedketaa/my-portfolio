@@ -1,39 +1,201 @@
 {
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
   "Hero": {
-    "greeting": "Hi, I'm Ahmed Mostafa",
-    "title": "Full Stack MERN Developer & Programming Instructor",
-    "description": "I build modern web applications using React, Next.js, Node.js and MongoDB, and I also teach full-stack development and computer science fundamentals.",
+"greetingPrefix": "Hi, I'm",
+"greetingName": "Ahmed Mostafa",
+"title": "Full Stack MERN Developer",
+"subtitle": "Building scalable products, polished UI, and clear learning experiences.",
+    "description": "I build modern, production-ready web applications with React, Next.js, Node.js, and MongoDB, combining clean engineering, polished UI, and an instructor’s clarity in explaining complex systems." ,
     "ctaProjects": "View Projects",
-    "ctaContact": "Contact Me"
+    "ctaContact": "Contact Me",
+    "code": {
+      "name": "Ahmed",
+      "role": "Full Stack Developer",
+      "focus1": "Performance",
+      "focus2": "SEO",
+      "focus3": "Scalable UI"
+    },
+    "cards": {
+      "coreFocusLabel": "Core Focus",
+      "coreFocusValue": "Building polished, scalable web experiences",
+      "whatMattersLabel": "What matters",
+      "whatMattersValue": "Clean architecture, fast UX, strong presentation"
+    }
   },
-
   "About": {
-    "title": "About Me",
-    "description": "I'm a Full Stack Developer specialized in the MERN stack with a strong passion for building modern, scalable web applications. I also work as a programming instructor where I teach full-stack development and computer science topics to aspiring developers.",
-    "description2": "Alongside development, I have experience in digital marketing and SEO-driven web development, helping businesses build production-ready websites that improve online visibility and user engagement."
-  },
-
-  "Experience": {
-    "title": "Experience",
-    "items": [
-      {
-        "role": "Web Developer & Digital Marketer",
-        "company": "Project-Based Work",
-        "description": "Developed complete production-ready websites from design to deployment while managing digital marketing strategies including SEO, content planning and performance optimization."
+    "eyebrow": "About me",
+    "title": "Developer mindset, instructor clarity, product focus.",
+    "description": "I'm a Full Stack Developer with a strong focus on modern JavaScript applications, especially React, Next.js, Node.js, and MongoDB. My background combines hands-on product development with teaching experience, which helps me build clean systems and explain complex ideas clearly.",
+    "description2": "I completed ITI's intensive MERN program, taught MEAN Stack at NTI, worked on responsive Next.js interfaces, and also handled SEO-friendly, production-ready websites in Abu Dhabi. That mix gives me both implementation depth and practical business awareness.",
+    "highlights": {
+      "education": {
+        "label": "Foundation",
+        "value": "ITI MERN intensive training + strong computer science background"
       },
-      {
-        "role": "MEAN Stack Instructor",
-        "company": "National Telecommunication Institute (NTI)",
-        "description": "Teaching a 90-hour MEAN Stack program covering Angular, Node.js, Express.js and MongoDB while mentoring students in real-world full-stack projects."
+      "mentoring": {
+        "label": "Teaching",
+        "value": "MEAN Stack instruction, programming mentoring, and technical coaching"
       },
-      {
-        "role": "Frontend Developer",
-        "company": "Cube Art LTD",
-        "description": "Developed responsive web interfaces using Next.js and Tailwind CSS and trained students in frontend best practices."
+      "stack": {
+        "label": "Build stack",
+        "value": "React, Next.js, TypeScript, Node.js, Express, MongoDB"
+      },
+      "impact": {
+        "label": "Real-world focus",
+        "value": "Scalable UI, SEO-aware delivery, and production-ready web experiences"
+      },
+      "teaching": {
+        "label": "Teaching Experience",
+        "value": "Programming instructor delivering real-world web development training"
+      },
+      "seo": {
+        "label": "Digital Marketing",
+        "value": "SEO-focused web development and performance-optimized websites"
+      },
+      "performance": {
+        "label": "Performance",
+        "value": "Fast, optimized applications focused on Core Web Vitals"
+      },
+      "architecture": {
+        "label": "Clean Architecture",
+        "value": "Scalable project structures and maintainable codebases"
       }
-    ]
+    }
   },
-
+  "Experience": {
+  "eyebrow": "Career Journey",
+  "title": "Experience",
+  "description": "Since July 2023, I have built a blended career across frontend development, MERN instruction, computer science teaching, and project-based digital work. Many of these roles were part-time and ran in parallel, reflecting both technical depth and consistent teaching impact.",
+  "stats": [
+    {
+      "label": "Years of experience",
+      "value": "3+"
+    },
+    {
+      "label": "Work model",
+      "value": "Parallel Part-Time Roles"
+    },
+    {
+      "label": "Core focus",
+      "value": "Development + Instruction"
+    }
+  ],
+  "items": [
+    {
+      "period": "Jan 2025 - Present",
+      "role": "Web Developer & Digital Marketer",
+      "company": "Project-Based Work",
+      "location": "Abu Dhabi, UAE",
+      "type": "development",
+      "employmentType": "Part-Time / Projects",
+      "description": "Building production-ready websites from concept to deployment while also supporting digital growth through SEO-friendly structure, content direction, and marketing execution.",
+      "highlights": [
+        "Developed complete websites from scratch including UI implementation, launch, and deployment.",
+        "Handled digital marketing workflows including content planning, campaign support, and performance optimization.",
+        "Improved online visibility and engagement through SEO-aware structure and targeted growth efforts."
+      ]
+    },
+    {
+      "period": "Dec 2024 - Present",
+      "role": "Instructor - MEAN Stack Development Track",
+      "company": "National Telecommunication Institute (NTI)",
+      "location": "Fayoum, Egypt",
+      "type": "teaching",
+      "employmentType": "Part-Time",
+      "description": "Delivering an extended MEAN Stack training track with strong emphasis on practical implementation, project structuring, and real-world development workflows.",
+      "highlights": [
+        "Taught Angular, Node.js, Express.js, and MongoDB through a structured hands-on track.",
+        "Mentored students in full-stack workflows, project architecture, and production-style implementation.",
+        "Built a sustained teaching record across a long-running NTI training engagement."
+      ]
+    },
+    {
+      "period": "Jul 2024 - Present",
+      "role": "Programming Instructor",
+      "company": "Digital Egypt Cubs Initiative",
+      "location": "Egypt",
+      "type": "teaching",
+      "employmentType": "Part-Time",
+      "description": "Teaching programming concepts to younger learners through practical sessions and project-based learning activities.",
+      "highlights": [
+        "Led practical coding sessions using tools like Pictoblox and MIT App Inventor.",
+        "Helped students translate ideas into simple applications through guided project work."
+      ]
+    },
+    {
+      "period": "May 2024 - Sep 2024",
+      "role": "MERN Stack Trainee",
+      "company": "Information Technology Institute (ITI)",
+      "location": "Egypt",
+      "type": "development",
+      "employmentType": "Intensive Internship",
+      "description": "Completed an intensive full-stack MERN training program focused on modern frontend and backend technologies with strong practical implementation.",
+      "highlights": [
+        "Studied React, Next.js, Angular, Node.js, Express.js, and MongoDB in a structured 300-hour program.",
+        "Strengthened practical skills in full-stack architecture, responsive UI development, and backend integration."
+      ]
+    },
+    {
+      "period": "Mar 2024 - Present",
+      "role": "Online Instructor in Computer Science",
+      "company": "Remote Teaching",
+      "location": "Online",
+      "type": "teaching",
+      "employmentType": "Part-Time",
+      "description": "Teaching core computer science topics online with a strong focus on simplifying technical concepts and maintaining student engagement.",
+      "highlights": [
+        "Taught Computer Organization and Architecture in an accessible and practical way.",
+        "Delivered interactive sessions that improved understanding of complex technical topics."
+      ]
+    },
+    {
+      "period": "Jul 2023 - Jun 2024",
+      "role": "Frontend Web Developer",
+      "company": "Cube Art LTD",
+      "location": "Fayoum, Egypt",
+      "type": "development",
+      "employmentType": "Part-Time",
+      "description": "Worked on responsive website implementation using modern frontend tools while also contributing to practical frontend learning and delivery quality.",
+      "highlights": [
+        "Designed and developed responsive websites using Next.js and Tailwind CSS.",
+        "Contributed to improving digital presence through modern frontend delivery.",
+        "Supported frontend best practices in both implementation and training contexts."
+      ]
+    },
+    {
+      "period": "2023 - 2024",
+      "role": "Programming Trainer",
+      "company": "National Institute of Science and Technology (NIST)",
+      "location": "Fayoum, Egypt",
+      "type": "teaching",
+      "employmentType": "Part-Time / Semester-Based",
+      "description": "Delivered programming and web development instruction with strong focus on practical understanding and student engagement.",
+      "highlights": [
+        "Taught Java, database concepts, HTML, CSS, and JavaScript to undergraduate students.",
+        "Delivered lectures and lab-style sessions with a hands-on learning approach."
+      ]
+    },
+    {
+      "period": "2023 - 2024",
+      "role": "Web Development Instructor",
+      "company": "Egyptian Academy for Education and Training",
+      "location": "Cairo, Egypt",
+      "type": "teaching",
+      "employmentType": "Part-Time / Wave-Based",
+      "description": "Provided practical web development training with emphasis on essential frontend skills and collaborative learning.",
+      "highlights": [
+        "Conducted courses on HTML, CSS, and JavaScript for learners building web fundamentals.",
+        "Created a collaborative environment that supported skill growth and engagement."
+      ]
+    }
+  ]
+},
   "Skills": {
     "title": "Technical Skills",
     "frontend": "Frontend Development",
@@ -41,10 +203,153 @@
     "database": "Database",
     "cs": "Computer Science"
   },
-
   "Contact": {
-    "title": "Let's Work Together",
-    "description": "If you are looking for a developer to build modern web applications or a programming instructor to mentor your team or students, feel free to reach out.",
-    "cta": "Get In Touch"
+  "eyebrow": "LET'S CONNECT",
+  "title": "Let’s build something strong together.",
+  "description": "I’m open to full-time roles, freelance projects, and collaborations where clean engineering, polished UI, and real product thinking matter.",
+  "availability": "Available for selected opportunities",
+  "ctaEmail": "Send Email",
+  "ctaProjects": "View Projects",
+  "cardTitle": "Contact channels",
+  "noteLabel": "PREFERRED WORK",
+  "note": "Best fit: frontend-heavy full stack roles, product-oriented teams, and educational or business platforms with real user impact."
+},
+  "Projects": {
+    "eyebrow": "Selected Work",
+    "title": "Projects That Blend Product Thinking With Clean Execution",
+    "description": "A curated selection of real-world work across business websites, education platforms, dashboards, and frontend products. Built to reflect how I think as a full stack developer and how I communicate as an instructor.",
+    "filters": {
+      "all": "All",
+      "fullstack": "Full Stack",
+      "frontend": "Frontend",
+      "education": "Education",
+      "business": "Business"
+    },
+    "badges": {
+      "featured": "Featured"
+    },
+    "status": {
+      "live": "Live Project",
+      "private": "Private Work",
+      "case-study": "Case Study"
+    },
+    "labels": {
+      "role": "Role",
+      "stack": "Tech Stack",
+      "challenge": "Challenge",
+      "impact": "Impact"
+    },
+    "actions": {
+      "liveSite": "Live Site",
+      "github": "GitHub",
+      "previewInside": "Preview Inside"
+    },
+    "preview": {
+      "eyebrow": "Live Preview",
+      "description": "Interactive project preview directly inside the portfolio for supported projects.",
+      "emptyTitle": "No preview selected",
+      "emptyDescription": "Choose a project with an available live preview.",
+      "noPreview": "This project has no embedded preview yet.",
+      "noPreviewHint": "Keep the card rich with impact, challenge, and stack so the section still feels complete."
+    },
+    "items": {
+      "qandeil": {
+        "title": "Qandeil Legal Consulting Platform",
+        "summary": "A production-ready business website delivered end-to-end for a legal consulting brand, combining modern frontend execution with SEO-aware structure and digital visibility goals.",
+        "challenge": "The goal was not only to build a polished website, but to create a business-ready digital presence that supports credibility, discoverability, and conversion.",
+        "impact": "I handled the complete delivery flow from structure and UI implementation to deployment direction and marketing-focused thinking, making it a strong example of product-minded execution.",
+        "metrics": {
+          "type": "Project Type",
+          "scope": "Delivery Scope",
+          "focus": "Primary Focus"
+        }
+      },
+      "losAcademy": {
+        "title": "Los Academy Learning Platform",
+        "summary": "A learning platform contribution focused on student-facing experience, including authentication flows and profile-related functionality with a clean responsive UI.",
+        "challenge": "Educational products need trust, clarity, and smooth user flow. The work focused on reducing friction around login, signup, and student profile access.",
+        "impact": "I contributed to key user-facing modules and helped shape a more secure and usable experience, with an estimated contribution of around 40% to the platform implementation.",
+        "metrics": {
+          "contribution": "Contribution",
+          "modules": "Core Modules",
+          "type": "Platform Type"
+        }
+      },
+      "reactEcommerce": {
+        "title": "React E-Commerce",
+        "summary": "A frontend-focused e-commerce application with dynamic product presentation, cart logic, and reusable UI patterns built with modern React fundamentals.",
+        "challenge": "E-commerce interfaces need strong state handling and consistent UI behavior across listing, product browsing, and cart interactions.",
+        "impact": "This project demonstrates practical frontend architecture, reusable components, and responsive product-focused interface design.",
+        "metrics": {
+          "type": "Project Type",
+          "modules": "Main Modules",
+          "focus": "Primary Focus"
+        }
+      },
+      "hospitalSystem": {
+        "title": "Hospital System",
+        "summary": "A dashboard-oriented management interface for healthcare workflows, focused on patient records, appointment handling, and role-based admin-style layouts.",
+        "challenge": "Management systems require structured information hierarchy, readable dashboards, and task-oriented flows instead of marketing-style design.",
+        "impact": "This project highlights my ability to build functional system UIs with practical layout decisions, responsive behavior, and clear interface grouping.",
+        "metrics": {
+          "type": "Project Type",
+          "modules": "Main Modules",
+          "focus": "Primary Focus"
+        }
+      }
+    }
+  },
+  "Footer": {
+  "name": "Ahmed Mostafa",
+  "copyright": "All rights reserved.",
+  "builtWith": "Built with Next.js, TypeScript, and Tailwind CSS"
+},
+"Proof": {
+  "eyebrow": "IN ACTION",
+  "title": "Teaching, mentoring, and real-world impact.",
+  "description": "Beyond building products, I actively teach, mentor students, lead practical sessions, and discuss real projects in online and in-person environments.",
+  "stats": {
+    "students": "Students taught",
+    "sessions": "Sessions delivered",
+    "workshops": "Workshops & events"
+  },
+  "featuredLabel": "Featured moment",
+  "openStudio": "Open studio view",
+  "closeStudio": "Close studio view",
+  "previous": "Previous",
+  "next": "Next",
+  "studioLabel": "Studio preview",
+  "video": "Video",
+  "image": "Image",
+  "items": {
+    "offlineSession": {
+      "title": "Offline teaching session",
+      "description": "A live in-person session focused on explaining concepts clearly, keeping students engaged, and turning theory into practical steps."
+    },
+    "studentsGroup": {
+      "title": "Group learning moment",
+      "description": "A snapshot that reflects classroom energy, student connection, and a collaborative learning environment."
+    },
+    "projectDiscussion": {
+      "title": "Project discussion with students",
+      "description": "Hands-on mentoring around project ideas, technical decisions, and feedback that helps students build with more confidence."
+    },
+    "onlineSession": {
+      "title": "Offline teaching session",
+      "description": "A remote explanation session showing communication clarity, structure, and the ability to teach effectively across formats."
+    },
+    "teachingStage": {
+      "title": "Live explanation on stage",
+      "description": "A stronger presentation-focused moment that highlights confidence, delivery, and audience engagement."
+    },
+    "mentoringStudents": {
+      "title": "Mentoring and guidance",
+      "description": "Working closely with students while reviewing progress, solving blockers, and improving project thinking."
+    },
+    "workshopRoom": {
+      "title": "Workshop environment",
+      "description": "A wider look at the training environment, showing activity, structure, and learning in action."
+    }
   }
+}
 }

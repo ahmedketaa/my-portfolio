@@ -1,26 +1,45 @@
-"use client";
-
-import { useLocale, useTranslations } from "next-intl";
+import { Navbar } from "@/components/layout/navbar";
+import { About } from "@/components/sections/about";
+import { ContactSection } from "@/components/sections/contact-section";
+import { ExperienceSection } from "@/components/sections/experience";
+import { Footer } from "@/components/sections/footer";
+import { Hero } from "@/components/sections/hero";
+import { ProjectsSection } from "@/components/sections/projects-section";
+import { ProofSection } from "@/components/sections/proof-section";
+import { Contact } from "lucide-react";
 
 export default function HomePage() {
-  const t = useTranslations("Hero");
-  const locale = useLocale();
-
   return (
-    <main className="p-6">
-      <p className="text-sm text-neutral-500">{t("greeting")}</p>
-
-      <h1 className="mt-2 text-3xl font-bold">
-        {t("title")}
-      </h1>
-
-      <p className="mt-3 max-w-2xl text-base text-neutral-600">
-        {t("description")}
-      </p>
-
-      <p className="mt-4 text-sm text-neutral-500">
-        Current locale: {locale}
-      </p>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero
+          socialLinks={{
+            github: "https://github.com/ahmedketaa",
+            linkedin: "https://www.linkedin.com/in/ahmedmo220/",
+            email: "andf.750@gmail.com"
+          }}
+        />
+        <About />
+        <ProofSection />
+        <ProjectsSection />
+        <ExperienceSection />
+        <ContactSection
+          socialLinks={{
+             github: "https://github.com/ahmedketaa",
+            linkedin: "https://www.linkedin.com/in/ahmedmo220/",
+            email: "andf.750@gmail.com"
+          }}
+          location="Abu Dhabi, UAE"
+        />      
+        <Footer 
+        socialLinks={{
+             github: "https://github.com/ahmedketaa",
+            linkedin: "https://www.linkedin.com/in/ahmedmo220/",
+            email: "andf.750@gmail.com"
+          }}
+        />
+        </main>
+    </>
   );
 }
