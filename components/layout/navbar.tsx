@@ -24,30 +24,58 @@ export function Navbar() {
   useEffect(() => {
     const sections = navLinks
       .map((link) => document.querySelector(link.href))
-      .filter(Boolean) as Element[];
+      .filter(Boolean) as HTMLElement[];
 
     if (!sections.length) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+    const updateActiveSection = () => {
+      const scrollPosition = window.scrollY + 140;
+      let currentSection = sections[0]?.id || "home";
 
-        if (!visible.length) return;
+      for (const section of sections) {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
 
-        setActiveSection(visible[0].target.id);
-      },
-      {
-        threshold: [0.25, 0.4, 0.6],
-        rootMargin: "-20% 0px -55% 0px",
+        if (
+          scrollPosition >= sectionTop &&
+          scrollPosition < sectionTop + sectionHeight
+        ) {
+          currentSection = section.id;
+          break;
+        }
       }
-    );
 
-    sections.forEach((section) => observer.observe(section));
+      const nearBottom =
+        window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 80;
 
-    return () => observer.disconnect();
+      if (nearBottom) {
+        currentSection = sections[sections.length - 1].id;
+      }
+
+      setActiveSection(currentSection);
+    };
+
+    updateActiveSection();
+
+    window.addEventListener("scroll", updateActiveSection, { passive: true });
+    window.addEventListener("resize", updateActiveSection);
+
+    return () => {
+      window.removeEventListener("scroll", updateActiveSection);
+      window.removeEventListener("resize", updateActiveSection);
+    };
   }, []);
+
+  useEffect(() => {
+    const baseUrl = `${window.location.pathname}${window.location.search}`;
+    const newUrl =
+      activeSection === "home" ? baseUrl : `${baseUrl}#${activeSection}`;
+
+    if (`${window.location.pathname}${window.location.search}${window.location.hash}` !== newUrl) {
+      window.history.replaceState(null, "", newUrl);
+    }
+  }, [activeSection]);
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/72 supports-[backdrop-filter]:bg-background/60 backdrop-blur-2xl">
