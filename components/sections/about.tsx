@@ -95,7 +95,7 @@ export function About() {
     <div className="pointer-events-none absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent" />
 
     <Image
-      src="/ahmed.png"
+      src="/media/ahmed.png"
       alt="Ahmed Mostafa"
       width={420}
       height={420}
