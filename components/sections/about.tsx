@@ -93,7 +93,6 @@ export function About() {
 
   <div className="relative rounded-[1.5rem] border border-white/10 bg-card/40 p-4 backdrop-blur-sm">
     <div className="pointer-events-none absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent" />
-
     <Image
       src="/media/ahmed.png"
       alt="Ahmed Mostafa"
