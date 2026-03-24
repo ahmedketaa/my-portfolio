@@ -88,10 +88,10 @@ export function Navbar() {
             Ahmed
           </Link>
 
-<nav
-  dir={locale === "ar" ? "rtl" : "ltr"}
-  className="hidden items-center gap-2 md:flex"
->            {navLinks.map((link) => {
+        <nav
+          dir={locale === "ar" ? "rtl" : "ltr"}
+          className="hidden items-center gap-2 md:flex"
+        >   {navLinks.map((link) => {
               const sectionId = link.href.replace("#", "");
               const isActive = activeSection === sectionId;
 
